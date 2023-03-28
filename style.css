@@ -1,5 +1,10 @@
 body {
   background-color: azure;
+  font-size: 62.5%;
+  height: 98vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -12,14 +17,14 @@ body {
 .counter {
   font-weight: bolder;
   font-size: xx-large;
-  padding: 20px;
+  padding: 1rem;
 }
 
 button {
-  font-size: 50px;
+  font-size: 3rem;
   background-color: white;
   margin: 5px;
   border: 1px solid gainsboro;
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
 }
